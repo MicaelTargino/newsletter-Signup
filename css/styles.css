@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: gray !important;
+}
+
+form.form-signin {
+  width: 40%;
+  text-align: center;
+  padding: 40px;
+  background: #fff;
+  box-shadow: 2px 2px 20px black;
+  border-radius: 2.5%;
+}
+ form h1 {
+   font-size: 32px;
+   font-weight: lighter;
+ }
+
+ form input:first-of-type {
+  border-radius: 5px 5px 0 0;
+ }
+
+ form input:nth-of-type(2){
+   margin-bottom: 5px;
+   border-radius: 0 0 5px 5px;
+   border-top: none;
+
+ }
